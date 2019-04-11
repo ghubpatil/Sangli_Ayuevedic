@@ -12,7 +12,7 @@ var app = express();
 
 // Local configuration
 var MONGODB_URL = process.env.MONGODB_URI || "mongodb://localhost:27017/Ayurveda";
-var EXPRESS_PORT = process.env.PORT || 8080;
+var EXPRESS_PORT = process.env.PORT || 4000;
 
 // Mongo connection
 mongoose.connect(MONGODB_URL);
